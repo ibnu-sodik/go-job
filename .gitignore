@@ -1,0 +1,34 @@
+# Ignore environment configuration files
+.env
+.env.*
+
+# Ignore compiled files and other system files
+system/
+writable/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer files (if you don't want to include them in the repository)
+composer.phar
+
+# Ignore vendor directory (if you want to exclude it and manage dependencies with Composer)
+vendor/
+
+# Ignore PHPUnit logs
+phpunit.xml
+phpunit.xml.dist
+
+# Ignore logs
+writable/logs/
+
+# Ignore caches
+writable/cache/
+
+# Ignore session files
+writable/sessions/
