@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        // return view('welcome_message');
-        return "Welcome to Go-Job Platform by Go-Blog Informatika";
+        return view('home');
+        // return "Welcome to Go-Job Platform by Go-Blog Informatika";
     }
 }
